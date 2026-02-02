@@ -8,7 +8,7 @@ export default function ExperiencePage() {
           Experience
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-          Building products and supporting teams across web and IT.
+          Building products across web and IT environments.
         </h1>
         <p className="mt-4 text-lg text-slate-300">
           I&#39;ve worked with small teams to deliver customer-facing websites,

@@ -16,13 +16,13 @@ export default function Home() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400/60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
             </span>
-            Open to software development and IT roles (including junior roles)
+            Seeking full-stack software and IT roles (junior-friendly)
           </div>
           <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
             Matthew Darabasz
           </p>
           <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl">
-            Software developer crafting{" "}
+            Full-stack developer crafting{" "}
             <span className="bg-linear-to-r from-blue-400 via-sky-300 to-violet-400 bg-clip-text text-transparent">
               modern web experiences
             </span>{" "}
@@ -31,8 +31,7 @@ export default function Home() {
           <p className="text-lg text-slate-300">
             I build responsive websites, internal tools, and user-first
             interfaces with full-stack delivery in mind—frontend polish backed
-            by reliable backend and data work. I&#39;m open to software roles
-            where I can contribute across the stack.
+            by reliable backend and data work.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
@@ -58,7 +57,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex flex-wrap gap-3 text-xs text-slate-400">
-            {["React", "TypeScript", "Tailwind CSS", "UI Systems"].map((tag) => (
+            {["Full-Stack", "React", "TypeScript", "APIs"].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full border border-white/10 bg-white/5 px-3 py-1"

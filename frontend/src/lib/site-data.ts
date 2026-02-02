@@ -23,8 +23,9 @@ export const highlights = [
       "Frontend, backend, and data work that delivers reliable user experiences.",
   },
   {
-    title: "IT + Software Blend",
-    description: "Comfortable supporting teams with systems, hardware, and tools.",
+    title: "Software + Systems",
+    description:
+      "Experience across software delivery and IT environments, from tooling to infrastructure.",
   },
   {
     title: "Curious + Collaborative",
