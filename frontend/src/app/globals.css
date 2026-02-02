@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+
+#stars,
+#stars2,
+#stars3 {
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+  background-size: 1200px 1200px;
+}
+
+#stars {
+  background-image: radial-gradient(1px 1px at 20px 30px, #ffffff, transparent),
+    radial-gradient(1px 1px at 200px 90px, #ffffff, transparent),
+    radial-gradient(1px 1px at 300px 250px, #ffffff, transparent),
+    radial-gradient(1px 1px at 500px 420px, #ffffff, transparent),
+    radial-gradient(1px 1px at 700px 120px, #ffffff, transparent),
+    radial-gradient(1px 1px at 900px 640px, #ffffff, transparent),
+    radial-gradient(1px 1px at 1100px 200px, #ffffff, transparent),
+    radial-gradient(1px 1px at 150px 520px, #ffffff, transparent),
+    radial-gradient(1px 1px at 420px 640px, #ffffff, transparent),
+    radial-gradient(1px 1px at 980px 420px, #ffffff, transparent),
+    radial-gradient(1px 1px at 60px 720px, #ffffff, transparent),
+    radial-gradient(1px 1px at 260px 740px, #ffffff, transparent),
+    radial-gradient(1px 1px at 560px 40px, #ffffff, transparent),
+    radial-gradient(1px 1px at 760px 300px, #ffffff, transparent);
+  opacity: 0.55;
+  animation: animStar 60s linear infinite;
+}
+
+#stars2 {
+  background-image: radial-gradient(1.5px 1.5px at 100px 160px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 260px 420px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 520px 300px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 820px 520px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 980px 180px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 1140px 760px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 140px 720px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 640px 80px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 360px 660px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 700px 700px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 980px 60px, #ffffff, transparent);
+  opacity: 0.4;
+  animation: animStar 90s linear infinite;
+}
+
+#stars3 {
+  background-image: radial-gradient(2px 2px at 140px 80px, #ffffff, transparent),
+    radial-gradient(2px 2px at 360px 520px, #ffffff, transparent),
+    radial-gradient(2px 2px at 620px 140px, #ffffff, transparent),
+    radial-gradient(2px 2px at 860px 380px, #ffffff, transparent),
+    radial-gradient(2px 2px at 1040px 700px, #ffffff, transparent),
+    radial-gradient(2px 2px at 220px 680px, #ffffff, transparent),
+    radial-gradient(2px 2px at 520px 40px, #ffffff, transparent),
+    radial-gradient(2px 2px at 940px 520px, #ffffff, transparent);
+  opacity: 0.3;
+  animation: animStar 140s linear infinite;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1200px);
+  }
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.35);
+}
+
+
+
+
