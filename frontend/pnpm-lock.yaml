@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@rive-app/react-canvas':
+        specifier: ^4.26.2
+        version: 4.26.2(react@19.2.3)
+      '@rive-app/react-webgl2':
+        specifier: ^4.26.2
+        version: 4.26.2(react@19.2.3)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -519,6 +525,22 @@ packages:
   '@parcel/watcher@2.5.6':
     resolution: {integrity: sha512-tmmZ3lQxAe/k/+rNnXQRawJ4NjxO2hqiOLTHvWchtGZULp4RyFeh6aU4XdOYBFe2KE1oShQTv4AblOs2iOrNnQ==}
     engines: {node: '>= 10.0.0'}
+
+  '@rive-app/canvas@2.34.2':
+    resolution: {integrity: sha512-s+Um9xHNDkZQTJ8oZZpJFLwQqJ2w7OA9Dsai+5vi1Y6fwUSHG8eRzgWVe6idT1rj1JkjXYZEWV1vlP0jkLQ4bw==}
+
+  '@rive-app/react-canvas@4.26.2':
+    resolution: {integrity: sha512-AAP0/jmU53io/qv26O8cT20FfgajS+8n0MSL6s52bCEX/zfKkbEZkJoqX5BS9BLbQkItiteiiZJR83KdgzHZ4w==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0
+
+  '@rive-app/react-webgl2@4.26.2':
+    resolution: {integrity: sha512-AwJ7wzx6jzfTD2rrQ8Tt5u5W7b9B4ctnQQnHfIs4ldUM5DV3tE11d81sHOeYNrW9GishgOvU9jsMdHsSnozNzg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0
+
+  '@rive-app/webgl2@2.34.2':
+    resolution: {integrity: sha512-o6KKQpnCldWMqo8yTD5ClZUKN8hx/26CuZPAcMTCKgP07fDa73KtbW1O0yj0R3o8tekevYNmjHTIicf/cDu+4A==}
 
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
@@ -2506,6 +2528,20 @@ snapshots:
       '@parcel/watcher-win32-arm64': 2.5.6
       '@parcel/watcher-win32-ia32': 2.5.6
       '@parcel/watcher-win32-x64': 2.5.6
+
+  '@rive-app/canvas@2.34.2': {}
+
+  '@rive-app/react-canvas@4.26.2(react@19.2.3)':
+    dependencies:
+      '@rive-app/canvas': 2.34.2
+      react: 19.2.3
+
+  '@rive-app/react-webgl2@4.26.2(react@19.2.3)':
+    dependencies:
+      '@rive-app/webgl2': 2.34.2
+      react: 19.2.3
+
+  '@rive-app/webgl2@2.34.2': {}
 
   '@rtsao/scc@1.1.0': {}
 

@@ -135,7 +135,7 @@ export const skills = [
 
 export const education = [
   {
-    school: "Purdue University",
+    school: "Purdue University Global",
     degree: "Associate of Applied Science (AAS) - Information Technology",
     focus: "Software Development",
     gpa: "3.4",
