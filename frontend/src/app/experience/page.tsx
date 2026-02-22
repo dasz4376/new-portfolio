@@ -8,12 +8,13 @@ export default function ExperiencePage() {
           Experience
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-          Building products across web and IT environments.
+          Experience across web development and IT systems.
         </h1>
         <p className="mt-4 text-lg text-slate-300">
-          I&#39;ve worked with small teams to deliver customer-facing websites,
-          internal portals, and custom UI systems. I&#39;m now looking for
-          software development and IT roles where I can apply that experience.
+          I&#39;ve delivered customer-facing websites, internal employee portals,
+          and UI features while helping support devices, networks, and tooling.
+          I&#39;m looking for software development and IT roles where I can apply
+          that mix of experience.
         </p>
       </section>
 

@@ -16,22 +16,23 @@ export default function Home() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400/60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
             </span>
-            Seeking full-stack software and IT roles (junior-friendly)
+            Full-stack developer with IT & systems background
           </div>
           <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
             Matthew Darabasz
           </p>
           <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl">
-            Full-stack developer crafting{" "}
+            Full-stack developer building{" "}
             <span className="bg-linear-to-r from-blue-400 via-sky-300 to-violet-400 bg-clip-text text-transparent">
-              modern web experiences
+              production web apps
             </span>{" "}
-            with clarity and care.
+            and internal tools.
           </h1>
           <p className="text-lg text-slate-300">
-            I build responsive websites, internal tools, and user-first
-            interfaces with full-stack delivery in mind—frontend polish backed
-            by reliable backend and data work.
+            Hands-on experience building and maintaining production web
+            applications while supporting infrastructure, identity systems, and
+            deployment workflows. I&#39;m currently deepening implementation-level
+            skills in JavaScript, React, and backend development.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
@@ -57,7 +58,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex flex-wrap gap-3 text-xs text-slate-400">
-            {["Full-Stack", "React", "TypeScript", "APIs"].map((tag) => (
+            {["Full-Stack", "React", "TypeScript", "IT Systems"].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full border border-white/10 bg-white/5 px-3 py-1"
@@ -70,14 +71,14 @@ export default function Home() {
         <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_0_60px_rgba(59,130,246,0.25)] transition hover:-translate-y-1 hover:border-white/20 hover:bg-white/10">
           <p className="text-sm font-semibold text-slate-200">How I Work</p>
           <h2 className="mt-3 text-2xl font-semibold text-white">
-            Full-stack delivery with clear communication and measurable impact.
+            Full-stack delivery with an operational mindset.
           </h2>
           <p className="mt-4 text-sm text-slate-300">
             I like to own features end-to-end—scoping the problem, building a
-            clean UI, and backing it with reliable backend and data work. I
-            focus on fast feedback loops, thoughtful UX, and iterative updates
-            that make teams more effective. I&#39;m currently seeking software
-            development and IT roles, including junior positions.
+            clean UI, and backing it with reliable backend and data work. I have
+            collaborated with stakeholders in recent roles to translate operational needs into
+            technical solutions. I&#39;m currently seeking software development
+            and IT roles, including junior positions, where I can learn and grow
           </p>
           <div className="mt-5 flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-slate-500">
             <span className="h-2 w-2 rounded-full bg-blue-400" />
@@ -106,7 +107,7 @@ export default function Home() {
               Featured Work
             </p>
             <h2 className="mt-2 text-3xl font-semibold text-white">
-              Projects that balance design and delivery.
+              Project work grounded in real roles.
             </h2>
           </div>
           <Link

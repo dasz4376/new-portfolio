@@ -8,20 +8,22 @@ export default function AboutPage() {
           About
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-          I build reliable, user-friendly software with a full-stack mindset.
+          Full-stack developer with hands-on software and IT experience.
         </h1>
         <p className="mt-4 text-lg text-slate-300">
-          I&#39;m a junior full-stack developer focused on React, TypeScript, and clean
-          UI systems. I&#39;ve contributed to websites and internal tools, and I
-          enjoy owning features end-to-end from the interface to the data layer.
+          I have built & maintained production web applications and support
+          infrastructure, identity systems, and deployment workflows. My work
+          spans frontend development, backend integration, and IT systems in
+          startup environments.
         </p>
         <p className="mt-4 text-base text-slate-300">
-          I&#39;m currently seeking software development and IT roles, including
-          junior opportunities where I can grow and contribute.
+          I&#39;m currently deepening implementation-level skills in JavaScript,
+          React, and backend development while looking for a collaborative
+          engineering environment that values code quality and mentorship.
         </p>
         <p className="mt-4 text-base text-slate-300">
-          My best work happens when I can collaborate, learn from experienced
-          engineers, and deliver improvements that make teams more effective.
+          I work best with clear communication and feedback loops that help
+          teams ship reliable improvements.
         </p>
       </section>
 

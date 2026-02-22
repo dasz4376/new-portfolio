@@ -14,22 +14,22 @@ export const socialLinks = [
 
 export const highlights = [
   {
-    title: "3+ Years Building Products",
-    description: "Hands-on delivery across web apps, portals, and UI systems.",
+    title: "Production Web Apps",
+    description: "Built and maintained customer-facing sites and internal tools.",
   },
   {
-    title: "Full-Stack Delivery",
+    title: "Full-Stack + IT",
     description:
-      "Frontend, backend, and data work that delivers reliable user experiences.",
+      "Experience across frontend, backend integration, and IT systems.",
   },
   {
-    title: "Software + Systems",
+    title: "Operational Focus",
     description:
-      "Experience across software delivery and IT environments, from tooling to infrastructure.",
+      "Comfortable with infrastructure, identity, and deployment workflows.",
   },
   {
-    title: "Curious + Collaborative",
-    description: "Fast learner who thrives with mentorship and feedback loops.",
+    title: "Collaborative Delivery",
+    description: "Translate operational needs into practical technical solutions.",
   },
 ];
 
@@ -75,24 +75,24 @@ export const projects = [
   {
     name: "Symmetry EAP Website",
     description:
-      "Built and maintained the public-facing website with a clean, modern UI and responsive layout.",
+      "Built and maintained the company website using React, TypeScript, and Tailwind CSS.",
     tech: ["React", "TypeScript", "Tailwind CSS"],
-    highlight: "Live site for Symmetry EAP.",
+    highlight: "Customer-facing site.",
     link: "https://symmetryeap.org/",
   },
   {
     name: "Paragon Wellness Marketing Site",
     description:
-      "Built a responsive site that translated staff feedback into simple, friendly customer journeys.",
+      "Delivered a responsive site and translated staff feedback into technical solutions.",
     tech: ["React", "JavaScript", "Responsive Design"],
-    highlight: "Aligned messaging with real-world client workflows.",
+    highlight: "Provided maintenance and production support.",
   },
   {
     name: "FiveM UI Systems",
     description:
-      "Designed modular UI features and gameplay enhancements for a live community server.",
+      "Built custom gameplay and UI features and improved performance over time.",
     tech: ["React", "Lua", "Custom UI"],
-    highlight: "Boosted UX clarity and overall player satisfaction.",
+    highlight: "Optimization and refactoring for a live community.",
   },
 ];
 
@@ -100,36 +100,42 @@ export const achievements = [
   {
     title: "Improved Site Performance",
     description:
-      "Increased website performance through UI optimizations and code refactoring.",
+      "Optimized UI components and refactored frontend code for responsiveness.",
   },
   {
     title: "Implemented IT Systems",
     description:
-      "Led deployment of IT systems for 30+ workstations using Azure.",
+      "Supported deployment of IT systems for 30+ workstations using Azure.",
   },
   {
     title: "Enhanced Code Quality",
     description:
-      "Reduced bug incidence by streamlining code review and testing processes.",
+      "Streamlined review and testing workflows to reduce bugs.",
   },
 ];
 
 export const skills = [
   {
     group: "Frontend",
-    items: ["React", "TypeScript", "Tailwind CSS", "JavaScript", "UI Design"],
+    items: ["React", "Typescript", "TailwindCSS", "JavaScript", "HTML5", "CSS3"],
   },
   {
-    group: "Backend & Data",
-    items: ["PostgreSQL", "MongoDB", "SQL Fundamentals", "APIs"],
+    group: "Backend & APIs",
+    items: ["Python", "REST APIs", "PostgreSQL", "MongoDB", "SQL"],
   },
   {
-    group: "Tooling",
-    items: ["Git", "Docker", "AWS", "Agile", "Testing Workflows"],
-  },
-  {
-    group: "IT & Systems",
-    items: ["Hardware", "Azure", "Linux", "Debugging", "Team Support"],
+    group: "Infrastructure & Systems",
+    items: [
+      "Git",
+      "Docker",
+      "Linux",
+      "Nginx",
+      "DNS Config",
+      "Azure Admin",
+      "Device Provisioning",
+      "Network Config",
+      "Debugging",
+    ],
   },
 ];
 

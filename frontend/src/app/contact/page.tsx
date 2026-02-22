@@ -8,12 +8,11 @@ export default function ContactPage() {
           Contact
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-          Let&#39;s connect about software opportunities.
+          Open to software development and IT roles.
         </h1>
         <p className="mt-4 text-lg text-slate-300">
-          I&#39;m actively looking for software development and IT roles,
-          including junior software positions, and I&#39;m open to teams that
-          value growth, collaboration, and clean engineering.
+          I&#39;m focused on roles where I can keep growing in React, backend work,
+          and system-aware development while contributing to reliable products.
         </p>
       </section>
 

@@ -9,12 +9,11 @@ export default function ProjectsPage() {
           Projects
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-          Selected work that blends thoughtful UX and clean engineering.
+          Selected work from production environments.
         </h1>
         <p className="mt-4 text-lg text-slate-300">
-          These projects highlight the kind of full-stack work I want to bring
-          to a software development or IT role—clear UX, reliable systems, and
-          practical results.
+          These projects reflect real client and internal needs: responsive
+          websites, UI features, and performance-focused improvements.
         </p>
       </section>
 
