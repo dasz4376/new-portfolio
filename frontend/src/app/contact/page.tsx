@@ -11,7 +11,7 @@ export default function ContactPage() {
           Open to software development and IT roles.
         </h1>
         <p className="mt-4 text-lg text-slate-300">
-          I&#39;m focused on roles where I can keep growing in React, backend work,
+          I&#39;m focused on roles where I can keep growing in front end work, backend work,
           and system-aware development while contributing to reliable products.
         </p>
       </section>
